@@ -1,0 +1,241 @@
+.p-datatable .p-datatable-thead>tr>th {
+    border-bottom: 1px solid #e0e1ef;
+    border-right: 1px solid #e0e1ef;
+    background: #fff !important;
+    border-top: none !important;
+    border-left: none !important;
+}
+
+.p-datatable .p-datatable-tbody>tr>td {
+    border: none;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.p-datatable .p-datatable-tbody>tr>td:last-child,
+.p-datatable .p-datatable-thead>tr>th:last-child {
+    border-right: none;
+    z-index: 10;
+    position: sticky;
+    background-color: #fff;
+}
+
+.p-datatable-scrollable>.p-datatable-wrapper {
+    border-radius: 4px;
+}
+
+.p-datatable.loading .p-datatable-tbody>tr>td {
+    border: none !important;
+}
+
+.p-datatable.loading.p-datatable-hoverable-rows .p-datatable-tbody>tr:not(.p-highlight):hover td {
+    background-color: none !important;
+}
+
+.p-datatable.loading .p-component-overlay {
+    background: none !important;
+}
+
+.p-datatable.p-datatable-hoverable-rows .p-datatable-tbody>tr:not(.p-highlight):hover {
+    background: none !important;
+    color: #495057;
+}
+
+.p-datatable:not(.loading).p-datatable-hoverable-rows .p-datatable-tbody>tr:not(.p-highlight):hover td {
+    background: #fbe9e7 !important;
+    color: #495057;
+    cursor: pointer;
+}
+
+.p-datatable .p-datatable-tbody>tr>td {
+    height: 40px;
+    padding: 0 16px !important;
+}
+
+.p-datatable .p-datatable-tbody>tr:focus {
+    outline: none !important;
+    background: #e0ebff !important;
+    outline-offset: -0.15rem;
+}
+
+.p-datatable:not(.loading) .p-datatable-tbody>tr:focus td {
+    background: #e0ebff !important;
+}
+
+.p-datatable.loading .p-datatable-tbody>tr {
+    height: 48px;
+}
+
+.p-datatable-wrapper {
+    flex: 1;
+}
+
+.p-paginator {
+    border-top: 1px solid #ddd !important;
+}
+
+.row-actions .item {
+    border-radius: 50%;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-left: 4px;
+}
+
+.position-relative .p-menu {
+    top: 40px;
+    z-index: 15;
+    right: 16px;
+}
+
+.p-datatable:not(.loading) .p-datatable-tbody>tr>td {
+    border: none !important;
+    border-right: 1px solid #ddd !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-bottom: 1px solid #ddd !important;
+}
+
+.p-datatable .p-datatable-thead>tr>th {
+    border-bottom: 1px solid #e0e1ef;
+    border-right: 1px solid #e0e1ef;
+    border-width: 1px !important;
+}
+
+.p-datatable:not(.loading) .p-datatable-tbody>tr>td:last-child {
+    border-right: none !important;
+}
+
+.p-datatable .p-column-header-content {
+    display: block !important;
+}
+
+.p-paginator-bottom {
+    height: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.p-paginator-bottom .p-paginator.p-component {
+    padding: 0 16px !important;
+    flex-wrap: nowrap !important;
+    height: 40px;
+}
+
+.p-paginator .p-dropdown {
+    height: 36px !important;
+    width: 85px;
+}
+
+.p-paginator-first::before {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 0;
+    display: inline-block;
+    background: transparent url(../../assets/images/img/CeGo_Sprites.f3e906b1.svg) no-repeat -222px -6px;
+    rotate: 180deg;
+}
+
+.p-paginator-last::before {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 10px;
+    display: inline-block;
+    background: transparent url(../../assets/images/img/CeGo_Sprites.f3e906b1.svg) no-repeat -222px -6px;
+    /* background-size: 100%; */
+}
+
+
+.p-datatable-emptymessage {
+    color: #9e9fab !important;
+}
+
+.p-paginator-next.p-paginator-element.p-link,
+.p-paginator-prev,
+.p-paginator-first,
+.p-paginator-last {
+    width: 36px !important;
+    height: 36px !important;
+    min-width: 0 !important;
+}
+
+.p-paginator-prev .p-paginator-icon::before {
+    content: "";
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 4px;
+    display: inline-block;
+    background: transparent url(../../assets/images/img/CeGo_Sprites.f3e906b1.svg) no-repeat -165px -3px;
+    rotate: 180deg;
+}
+
+.p-paginator-next .p-paginator-icon.pi.pi-angle-right::before {
+    content: "";
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 11px;
+    display: inline-block;
+    background: transparent url(../../assets/images/img/CeGo_Sprites.f3e906b1.svg) no-repeat -177px -7px;
+}
+
+.p-link:disabled {
+    opacity: 0.6;
+}
+
+.p-paginator-right-content {
+    margin-left: 0 !important;
+}
+
+.p-datatable-table.grid-group {
+    border: 1px solid #ddd;
+    border-bottom: none;
+}
+
+/* .p-component-overlay {
+    background-color: transparent !important;
+} */
+
+.p-datatable .p-datatable-tbody tr td:last-child {
+    position: sticky;
+    right: 0;
+}
+
+
+.p-datatable .p-component-overlay {
+    background-color: transparent !important;
+}
+
+.p-datatable .p-datatable-loading-icon {
+    display: none;
+}
+
+.p-sortable-column-icon.pi.pi-fw.pi-sort-amount-down {
+    background: transparent url(../../assets/images/img/Sprites.64af8f61.svg) no-repeat;
+    background-position: -143px -117px;
+    width: 16px;
+    margin-bottom: 5px;
+    content: "";
+}
+
+.p-datatable .p-sortable-column.p-highlight {
+    color: #000 !important;
+}
+
+.p-datatable .p-sortable-column:focus {
+    box-shadow: none !important;
+}

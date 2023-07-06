@@ -1,0 +1,88 @@
+.main-view {
+    padding: 16px;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 1.5px 2px 0 rgba(0, 0, 0, .1);
+}
+
+.form-list .title-box {
+    margin: 0 0 16px;
+}
+
+.form-list .list-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.toolbar-box {
+    margin: 0 0 16px;
+}
+
+.toolbar-box .left-toolbar {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.toolbar-box .right-toolbar {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.search-box {
+    width: 265px;
+}
+
+.box,
+.card {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 11px rgba(0, 0, 0, .08);
+}
+
+.list-content {
+    position: relative;
+}
+
+.error-icon {
+    margin: 5px 6px 0 0;
+}
+
+
+.ms-pagination {
+    padding: 0 16px;
+    height: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    align-items: center;
+}
+
+.ms-pagination .h-20 {
+    height: 20px;
+}
+
+.min-page-caption {
+    min-width: 40px;
+}
+
+.min-page-caption {
+    min-width: 40px;
+}
+
+.from,
+.to,
+.total {
+    font-weight: 700;
+    margin: 0 6px;
+}
+
+.ms-pagination .h-40 {
+    height: 40px;
+    align-items: center;
+}
+
+.page-size {
+    width: 85px;
+    margin: 4px 16px;
+    line-height: 32px;
+}

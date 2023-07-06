@@ -1,0 +1,26 @@
+.upload-container {
+    height: 100%;
+    border: 1px dashed #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.upload-container .no-file.file-zip {
+    background: url(../../assets/icon/upload-zip.svg) no-repeat;
+    width: 334px;
+    height: 110px;
+    margin-top: 20px;
+    background-size: contain;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.upload-container .no-file.file-xlsx {
+    background: url(../../assets/icon/add_attachment.c604b695.svg) no-repeat;
+    width: 334px;
+    height: 110px;
+    margin-top: 20px;
+    background-size: contain;
+    background-position: center;
+    margin-bottom: 20px;
+}

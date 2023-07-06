@@ -1,0 +1,223 @@
+.btn.primary {
+    color: #fff;
+    background: #2979ff;
+}
+
+.btn {
+    min-height: 36px;
+    min-width: 80px;
+    border: none;
+    box-shadow: none;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    border-radius: 4px;
+    white-space: nowrap;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+button.btn {
+    padding: 0;
+    outline: none;
+}
+
+.btn:not(:disabled).primary:hover {
+    background: #1a73e8;
+}
+
+.btn .icon {
+    display: inline-block;
+    margin: -7px 5px -7px 12px;
+}
+
+.btn .text {
+    font-family: GoogleSans !important;
+}
+
+.btn .text {
+    display: inline-block;
+    white-space: nowrap;
+    padding: 0 16px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.btn-primary {
+    font-weight: normal;
+    color: #fff;
+    background-color: #2979FF !important;
+    border-color: unset !important;
+}
+
+.btn-primary:hover {
+    background-color: #1A73E8;
+}
+
+.btn.text {
+    display: inline-block;
+    white-space: nowrap;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    padding-right: 12px;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.p-button:disabled {
+    opacity: .56;
+    cursor: unset;
+}
+
+.btn-link {
+    font-weight: normal;
+    color: #2979FF;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    color: #1A73E8;
+    text-decoration: underline;
+}
+
+.p-button.secondary:hover {
+    background: #f4f5f8 !important;
+    color: #000 !important;
+    border: 1px solid #e0e0e0 !important;
+}
+
+.button-logout {
+    width: 100%;
+    height: 44px;
+    border: unset !important;
+    border-radius: 8px;
+    border-top-left-radius: unset;
+    border-top-right-radius: unset;
+    text-align: center;
+}
+
+.btn.secondary,
+.btn.secondary-outline {
+    border: 1px solid #e0e0e0;
+    color: #000;
+    background: #fff;
+}
+
+.btn:not(:disabled).secondary:hover {
+    background: #f4f5f8;
+}
+
+.p-button {
+    border-radius: 3.5px !important;
+}
+
+.split-button .split-icon {
+    padding: 6px 0;
+    margin: 0 !important;
+    width: 35px;
+    height: 36px;
+}
+
+.split-button {
+    position: relative;
+}
+
+.split-button .button-line {
+    margin-bottom: 0;
+    display: inline-block;
+    width: 1px;
+    height: 37px;
+    background-color: #fff;
+}
+
+.split-button .split-icon .icon {
+    margin: 0 7px;
+    cursor: pointer;
+}
+
+.btn .eye {
+    display: inline-block;
+    margin: -7px 5px -7px 12px;
+    height: 24px;
+    top: 0;
+    right: 0;
+    width: 24px;
+    position: relative;
+}
+
+.btn.danger {
+    color: #fff;
+    background: #ef5350 !important;
+}
+
+.btn:not(:disabled).danger:hover {
+    background: #e54340 !important;
+}
+
+.p-button:focus {
+    box-shadow: none !important;
+}
+
+.p-button-label {
+    font-family: GoogleSans !important;
+    font-size: 14px;
+}
+
+.btn:not(:disabled).danger:active,
+.btn:not(:disabled).danger:focus {
+    background: #d63734 !important;
+}
+
+.p-button {
+    height: 36px;
+    padding: 0;
+}
+
+.ms-button.text-white {
+    color: #ffffff !important;
+}
+
+.btn.primary-outline {
+    border: 1px solid #2979ff;
+    color: #2979ff !important;
+    background: #fff;
+}
+
+.btn.primary-outline .p-button-label {
+    font-weight: 100 !important;
+    padding: 0 16px;
+}
+
+.p-button.p-component.ms-button.btn.detail-button.secondary {
+    font-weight: 0 !important;
+}
+
+.p-button.p-component.ms-button.btn.detail-button.secondary:hover {
+    border: 1px solid #e0e0e0 !important;
+    font-weight: 0 !important;
+    color: #000 !important;
+}
+
+.p-button-label {
+    font-weight: 400 !important;
+}
+
+.p-button.danger {
+    border: none !important;
+}
+
+.p-button.danger .p-button-label {
+    padding: 0 16px;
+}
+
+.btn.only-icon {
+    min-width: 40px;
+}
+
+.btn.only-icon .icon {
+    display: inline-block;
+    margin: -7px 8px !important;
+}

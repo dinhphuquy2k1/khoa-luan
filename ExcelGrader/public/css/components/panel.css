@@ -1,0 +1,69 @@
+button.p-panel-toggler[aria-label='customPanel'] {
+    min-width: max-content !important;
+}
+
+button.p-panel-toggler[aria-label='customPanel'] span {
+    width: max-content;
+    display: flex;
+    align-items: center;
+}
+
+button.p-panel-toggler[aria-label='customPanel']:hover span::after {
+    text-decoration: underline;
+}
+
+button.p-panel-toggler[aria-label='customPanel'] span::before {
+    margin-right: 4px;
+    content: "";
+    height: 16px !important;
+    width: 16px !important;
+}
+
+button.p-panel-toggler[aria-label='customPanel'][aria-expanded='true'] span::before {
+    background: transparent url(../../assets/icon/ic_chevron-up-blue.7fd4c4c4.svg) no-repeat;
+    background-position: 50%;
+}
+
+button.p-panel-toggler[aria-label='customPanel'][aria-expanded='false'] span::before {
+    background: transparent url(../../assets/icon/ic_chevron-down-blue.c4aa0e52.svg) no-repeat;
+    background-position: 50%;
+}
+
+.p-panel .p-panel-header .p-panel-header-icon:enabled:hover {
+    border-color: transparent;
+    background: none !important;
+}
+
+.p-panel .p-panel-header .p-panel-header-icon:focus {
+    outline: 0 none;
+    outline-offset: 0;
+    box-shadow: none !important;
+}
+
+button.p-panel-toggler[aria-label='customPanel'][aria-expanded='true'] span::after {
+    content: "Thu gọn";
+}
+
+button.p-panel-toggler[aria-label='customPanel'][aria-expanded='false'] span::after {
+    content: "Chi tiết";
+}
+
+button.p-panel-toggler[aria-label='customPanel'] span::after {
+    width: max-content;
+    color: #2979ff !important;
+    cursor: pointer;
+    border: none !important;
+    font-weight: 400 !important;
+    font-size: 14px;
+}
+
+.p-panel.customPanel .p-panel-header .p-panel-title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.p-panel.customPanel .p-panel-header,
+.p-panel.customPanel .p-toggleable-content .p-panel-content {
+    background: #fff !important;
+    border: none !important;
+}

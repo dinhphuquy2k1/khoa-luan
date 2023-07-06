@@ -1,0 +1,53 @@
+.p-toast-message-icon.pi.pi-check {
+    background: url(../../assets/images/img/CeGo_Sprites.f3e906b1.svg) no-repeat;
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
+    background-position: -112px -144px;
+}
+
+.p-toast-message-icon.pi.pi-times {
+    background: url(../../assets/images/img/CeGo_Sprites.f3e906b1.svg) no-repeat;
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
+    background-position: -195px -101px;
+}
+
+.p-toast {
+    width: max-content !important;
+    z-index: 999999999 !important;
+}
+
+.p-toast .p-toast-message .p-toast-icon-close:focus {
+    outline: 0 none;
+    outline-offset: 0;
+    box-shadow: none !important;
+}
+
+.p-toast .p-toast-message .p-toast-message-content {
+    padding: 8px !important;
+}
+
+.p-toast .p-toast-message .p-toast-message-content .p-toast-summary {
+    font-size: 15px;
+}
+
+.p-toast .p-toast-message .p-toast-message-content .p-toast-detail {
+    font-size: 14px;
+}
+
+.p-toast-message-content {
+    display: flex;
+    align-items: center !important;
+}
+
+.p-toast-message-text {
+    font-family: GoogleSans !important;
+}
+
+.p-toast .p-toast-message {
+    margin: 0 0 16px 0 !important;
+}

@@ -1,0 +1,78 @@
+.form-content {
+    align-items: center;
+    justify-content: center;
+}
+
+.form-group:not(.top) {
+    margin-bottom: 16px;
+}
+
+.right-content .text-title {
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: #212121;
+    position: relative;
+    font-weight: 700;
+}
+
+.form-group:last-child {
+    margin-bottom: 20px;
+}
+
+.form-group label.top-label {
+    padding: 0;
+    color: #666;
+    font-size: 14px;
+    font-weight: 400 !important;
+    margin-bottom: 8px;
+}
+
+.right-content .list-control .col-sp {
+    width: 12px;
+}
+
+/* .box.list-content {
+    overflow: auto;
+} */
+
+/* .box.list-content .p-tabview.p-component {
+    flex: 1;
+    overflow: auto;
+} */
+.flex-rtl {
+    display: flex;
+    flex-direction: rtl;
+    direction: rtl;
+    justify-content: flex-end;
+}
+
+.box.list-content .p-tabview-nav-content .p-tabview-nav .totalScore {
+    position: absolute;
+    right: 0;
+}
+
+.totalScore b {
+    color: #212121;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.form-list .p-button:enabled:hover {
+    border-color: #e0e0e0 !important;
+}
+
+.box.list-content .p-tabview-nav-content .p-tabview-nav .totalScore.p-disabled,
+.p-component:disabled {
+    /* opacity: 1 !important; */
+    font-size: 20px;
+}
+
+/*
+.list-control.sheetName .flex-row {
+    width: calc(100% / 2);
+    display: flex;
+}
+
+.list-control.sheetName .flex-row .div {
+    width: calc(100% / 3);
+} */
